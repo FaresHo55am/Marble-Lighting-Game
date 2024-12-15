@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marble Lighting Game</title>
+    <style>
+      input {
+        font-weight: bold;
+        font-size: 24px;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+      }
+      img {
+        width: 100px;
+      }
+      body {
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pick a Path</h1>
+    <input type="button" value="Path 1" onclick="path1()" />
+    <input type="button" value="Path 2" onclick="path2()" />
+    <input type="button" value="Path 3" onclick="path3()" />
+    <hr />
+    <br />
+    <h1>Increase / Decrease Speed</h1>
+    <input type="button" value="Speed +" onclick="inc()" />
+    <input type="button" value="Speed -" onclick="dec()" /><br />
+    <hr />
+    <h2 name="current">Current Path</h2>
+    <br />
+    <h2 name="current">Current Speed</h2>
+    <br />
+    <h2 name="current">Current State</h2>
+    <br />
+    <img name="marble" />
+    <img name="marble" />
+    <img name="marble" />
+    <img name="marble" />
+    <img name="marble" />
+    <img name="marble" />
+    <script src="script.js"></script>
+  </body>
+</html>
+
